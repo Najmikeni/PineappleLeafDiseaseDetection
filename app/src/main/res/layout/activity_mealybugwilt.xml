@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mealybug_bg"
+    tools:context=".MealybugWilt">
+
+    <TextView
+        android:id="@+id/mealybugwilt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="MEALYBUG WILT"
+        android:textAlignment="center"
+        android:textColor="#D68814"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mealybugwilt"
+        android:layout_marginTop="36dp"
+        android:text="What is it?"
+        android:layout_centerHorizontal="true"
+        android:textColor="#D68814"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="340dp"
+        android:layout_height="263dp"
+        android:layout_below="@+id/mealybugwilt"
+        android:layout_marginTop="89dp"
+        android:justificationMode="inter_word"
+        android:letterSpacing="0.01"
+        android:layout_centerHorizontal="true"
+        android:text="@string/mealybugwilt"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/explain"
+        android:layout_marginTop="-42dp"
+        android:text="Prevention / Treatment:"
+        android:textColor="#D68814"
+        android:textSize="21sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prevent"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mealybugwilt"
+        android:layout_marginTop="365dp"
+        android:justificationMode="inter_word"
+        android:letterSpacing="0.01"
+        android:layout_centerHorizontal="true"
+        android:text="@string/prevent_mealybugwilt"
+        android:textColor="#000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/link2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/explain"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="168dp"
+        android:text="@string/link_Mealybug"
+        android:textAlignment="center"
+        android:textColor="#D68814"
+        android:layout_centerHorizontal="true"
+        android:textColorLink="#9C27B0"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/homebtn"
+        android:layout_width="290dp"
+        android:layout_height="42sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="Back"
+        app:backgroundTint="#FBC58B"
+        android:background="@drawable/back_bg"
+        android:textColor="@drawable/btnselect4_bg"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

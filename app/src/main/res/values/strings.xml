@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PineappleCare</string>
+    <string name="mealybugwilt">Pineapple mealybug wilt is a disease that affects pineapple plants. It is caused by the pineapple mealybug, a small insect that feeds on the roots and leaves of the plant. The infestation leads to wilting, stunted growth, and even death of the plant.</string>
+    <string name="prevent_mealybugwilt">Regularly inspect plants for signs of infestation and to control mealybugs with insecticides or natural predators like ladybugs.</string>
+
+    <string name="leafspot">A fungal disease known as pineapple leaf spot infects the leaves of pineapple plants. Small, circular, wet spots that eventually turn yellow and then brown on the leaves are its defining feature. Defoliation, a decline in fruit yield, and poorer fruit quality can all be results of the disease.</string>
+    <string name="prevent_leafspot">1. Plant disease-free pineapple suckers or crowns\n2. Remove and destroy the infected plant debris and weeds to prevent the spread of spores\n3. Apply appropriate fungicides as directed by a professional or experienced farmer</string>
+
+    <string name="pinkDisease">Pineapple pink disease is a bacterial infection that affects pineapple plants, causing pinkish patches or slime on leaves, stems, and fruits. It thrives in humid conditions and can lead to tissue decay and plant decline. Proper plant hygiene, irrigation practices, and removal of infected parts are important for prevention.</string>
+    <string name="prevent_pink">1. Maintain plant hygiene: Remove infected plant material promptly\n2.  Use preventive sprays: Apply approved fungicides or bactericides\n3. Improve air circulation: Space plants adequately and prune for better airflow</string>
+
+    <string name="link_Mealybug">Learn more about Mealybug Wilt Disease\n<a href="https://entnemdept.ufl.edu/creatures/FRUIT/MEALYBUGS/pineapple_mealybug.htm">here</a></string>
+    <string name="link_LeafSpot">Learn more about Pineapple Leaf Spot\n<a href="https://infonet-biovision.org/PlantHealth/MinorPests/white-leaf-spot">here</a></string>
+    <string name="link_PinkDisease">Learn more about Pineapple Pink Disease\n<a href="https://www.apsnet.org/edcenter/apsnetfeatures/Pages/Pineapple.aspx">here</a></string>
+
+    <string name="home_desc">Pineapple Leaf Disease Detection is easy to use. Just upload pictures of an effected pineapple leaf and the app will detect the disease. Currently supports a few crops which is Mealybug Wilt and Leaf Spot.</string>
+    <string name="whatisPLD">Pineapple leaf disease refers to a group of diseases that damage the leaves of Ananas comosus plants. \n\nPathogens such as fungi, bacteria, viruses, and pests can cause these diseases. \n\nPineapple leaf diseases can harm the general health and production of pineapple plants, resulting in lower fruit quality and output.</string>
+
+    <string name="pineapple">Pineapple, a perennial herbaceous plant is a member of the Bromeliaceae family, and it is mainly grown in tropical and coastal areas. The pineapple is a native American plant that Columbus and his companion first discovered on November 4, 1493, on a West Indian Island.\n\nPineapple had wide, cylindrical shape of a pineapple is complemented by its scaly green, brown, or yellow skin, as well as its regal crown of spiky, bluish-green leaves and fibrous yellow flesh.\n\nThe inside of the pineapple consists of juicy, yellow to golden flesh with a central fibrous core.Pineapples are rich in vitamin C, manganese, and bromelain, an enzyme that aids digestion.\n\nThe pineapple fruit is widely utilized in the food industry for products such fruit chips, juice, jam, biscuits, and others as well as for fresh consumption,commercial canning, and other uses.\n\nDue to its positive health benefits,tropical native tribes have employed pineapple as medicine as a digestive and wound healing agent.</string>
+</resources>

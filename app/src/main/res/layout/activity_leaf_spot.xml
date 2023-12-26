@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/leafspot_bg"
+    tools:context=".LeafSpot">
+
+    <TextView
+        android:id="@+id/leafspot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginTop="37dp"
+        android:text="LEAF SPOT"
+        android:textColor="#06650A"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/leafspot"
+        android:layout_marginTop="30dp"
+        android:text="What is it?"
+        android:layout_centerHorizontal="true"
+        android:textColor="#06650A"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="340dp"
+        android:layout_height="263dp"
+        android:layout_below="@+id/leafspot"
+        android:layout_marginTop="79dp"
+        android:justificationMode="inter_word"
+        android:letterSpacing="0.01"
+        android:layout_centerHorizontal="true"
+        android:text="@string/leafspot"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/explain"
+        android:layout_marginTop="-60dp"
+        android:text="Prevention / Treatment:"
+        android:textColor="#06650A"
+        android:layout_centerHorizontal="true"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prevent"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/leafspot"
+        android:layout_marginTop="332dp"
+        android:justificationMode="inter_word"
+        android:letterSpacing="0.01"
+        android:layout_centerHorizontal="true"
+        android:text="@string/prevent_leafspot"
+        android:textColor="#000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/link1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/explain"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="210dp"
+        android:text="@string/link_LeafSpot"
+        android:textAlignment="center"
+        android:textColor="#1D600E"
+        android:layout_centerHorizontal="true"
+        android:textColorLink="#9C27B0"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/homebtn"
+        android:layout_width="290dp"
+        android:layout_height="42sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        app:backgroundTint="#84FB70"
+        android:textColor="@drawable/btnselect3_bg"
+        android:text="Back"
+        android:background="@drawable/back_bg"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

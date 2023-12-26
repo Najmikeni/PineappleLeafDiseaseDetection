@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".FAQPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:isScrollContainer="true"
+        android:fillViewport = "true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/faq1_bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="116dp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/audiowide"
+                    android:text="PineappleCare FAQ"
+                    android:layout_marginTop="30dp"
+                    android:textAlignment="center"
+                    android:textColor="#1D3C6A"
+                    android:textSize="38dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/gelasio"
+                    android:text="Get clarification on any doubts\n or uncertainties you may have"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="13dp"
+                    android:textColor="#272D37"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/white_bg"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10sp"
+                    android:padding="8dp"
+                    android:src="@drawable/blackline"
+                    android:layout_gravity="center"
+                    />
+
+                <!--faq1 layout -->
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="1. Can I use the PineappleCare on any device?"
+                    android:textAlignment="center"
+                    android:textColor="#090600"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/stepbystep_bg"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10sp"
+                            android:text="Unfortunately PineappleCare are only compatible on Android devices"
+                            android:textAlignment="center"
+                            android:textColor="#0C0C0C"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--faq2 layout -->
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="35dp"
+                    android:text="2. How many pineapple leaf disease can PineappleCare detect and classify?"
+                    android:textAlignment="center"
+                    android:textColor="#090600"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/stepbystep_bg"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10sp"
+                            android:layout_marginTop="5sp"
+                            android:layout_marginRight="10sp"
+                            android:layout_marginBottom="5sp"
+                            android:text="PineappleCare can detect and classify up to 3 types of Pineapple Leaf Disease: \nLeaf Spot, Mealybug Wilt, and Pink Disease"
+                            android:textAlignment="center"
+                            android:textColor="#0C0C0C"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--faq3 layout -->
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="35dp"
+                    android:text="3. How accurate is the disease detection feature of the app?"
+                    android:textAlignment="center"
+                    android:textColor="#090600"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/stepbystep_bg"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10sp"
+                            android:layout_marginTop="5sp"
+                            android:layout_marginRight="10sp"
+                            android:layout_marginBottom="5sp"
+                            android:text="The app utilizes an image processing and machine learning algorithms (CNN) to provide accurate disease detection \n\nHowever, the accuracy may vary depending on factors such as image quality, lighting, and disease variability"
+                            android:textAlignment="center"
+                            android:textColor="#0C0C0C"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--faq4 layout -->
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="35dp"
+                    android:text="4. Can I contribute to the app's database of pineapple leaf diseases?"
+                    android:textAlignment="center"
+                    android:textColor="#090600"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/stepbystep_bg"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10sp"
+                            android:layout_marginTop="5sp"
+                            android:layout_marginRight="10sp"
+                            android:layout_marginBottom="5sp"
+                            android:text="PineappleCare uses a pre-trained model for disease detection, but we welcome feedback and suggestions for future improvements. User contributions may be considered in upcoming updates"
+                            android:textAlignment="center"
+                            android:textColor="#0C0C0C"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--faq5 layout -->
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="35dp"
+                    android:text="5. How should I capture images of pineapple leaves for optimal detection?"
+                    android:textAlignment="center"
+                    android:textColor="#090600"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/stepbystep_bg"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10sp"
+                            android:layout_marginTop="5sp"
+                            android:layout_marginRight="10sp"
+                            android:layout_marginBottom="5sp"
+                            android:text="Capture clean and sharp photos of the pineapple leaf to ensure correct detection. Make sure the leaves are well-illuminated and free from obstructions or reflections"
+                            android:textAlignment="center"
+                            android:textColor="#0C0C0C"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--faq6 layout -->
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="35dp"
+                    android:text="6. What should I do if the app detects a disease on my pineapple plant?"
+                    android:textAlignment="center"
+                    android:textColor="#090600"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/stepbystep_bg"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10sp"
+                            android:layout_marginTop="5sp"
+                            android:layout_marginRight="10sp"
+                            android:layout_marginBottom="5sp"
+                            android:text="If a disease is discovered, immediate action should be taken. Consult a local agricultural expert or rely on trustworthy sites for disease management and treatment advice"
+                            android:textAlignment="center"
+                            android:textColor="#0C0C0C"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- return-->
+                <LinearLayout
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="27sp"
+                    android:background="@drawable/back_bg"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:onClick="returnHome">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10sp"
+                            android:layout_marginTop="5sp"
+                            android:layout_marginRight="10sp"
+                            android:layout_marginBottom="5sp"
+                            android:text="Return"
+                            android:textAlignment="center"
+                            android:textColor="#0C0C0C"
+                            android:textSize="18sp"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

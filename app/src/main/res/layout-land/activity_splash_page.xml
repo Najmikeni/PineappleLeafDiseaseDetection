@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/homepage"
+    tools:context=".SplashPage">
+
+    <ImageView
+        android:id="@+id/pine2"
+        android:layout_width="89dp"
+        android:layout_height="162dp"
+        android:layout_above="@+id/imageView6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="-104dp"
+        android:layout_weight="1"
+        android:rotation="26"
+        app:srcCompat="@drawable/pine2" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="209dp"
+        android:fontFamily="@font/rubik"
+        android:text="Welcome to Pineapple Leaf Disease Detection!"
+        android:textAlignment="center"
+        android:textColor="#5F9C00"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="378dp"
+        android:layout_height="276dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-82dp"
+        android:layout_marginEnd="-205dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/pineapplepic" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="121dp"
+        android:layout_height="86dp"
+        android:layout_above="@+id/imageView6"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="320dp"
+        android:layout_marginBottom="-259dp"
+        android:layout_weight="1"
+        android:onClick="startBtnClicked"
+        app:srcCompat="@drawable/start" />
+
+    <ImageView
+        android:id="@+id/pine1"
+        android:layout_width="109dp"
+        android:layout_height="298dp"
+        android:layout_above="@+id/imageView6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="-353dp"
+        android:layout_weight="1"
+        android:rotation="-21"
+        app:srcCompat="@drawable/pine1" />
+
+
+</RelativeLayout>

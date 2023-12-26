@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_bg"
+    tools:context=".HomePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg3"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PineappleCare"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/gelasio"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feel free to explore the apps"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="@font/gelasio"
+            android:layout_marginBottom="5sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="58dp">
+
+            <!--Pineapple layout -->
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/pineapple_bg"
+                android:layout_marginTop="53dp"
+                android:padding="3dp"
+                android:layout_gravity="center"
+                android:onClick="pineapple_General">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pineapple in General"
+                        android:textColor="#B37200"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginLeft="20sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Learn more about pineapple!"
+                        android:textColor="#70501A"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/gelasio"
+                        android:layout_marginLeft="20sp"
+                        />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:padding="8dp"
+                    android:src="@drawable/pine2"
+                    android:layout_marginLeft="16dp"
+                    />
+            </LinearLayout>
+
+            <!--Pineapple leaf disease layout-->
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/pld_bg"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:layout_gravity="center"
+                android:onClick="pld_info">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pineapple Leaf Disease"
+                        android:textColor="#09630C"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginLeft="20sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="What is it? \nClick for more information!"
+                        android:textColor="#09630C"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/gelasio"
+                        android:layout_marginLeft="20sp"
+                        />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:padding="8dp"
+                    android:src="@drawable/bacteria"
+                    android:layout_marginLeft="29dp"
+                    android:layout_marginTop="12sp"
+                    />
+            </LinearLayout>
+
+            <!--Growing Pineapple Layout-->
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/tips_bg"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:layout_gravity="center"
+                android:onClick="growingPineapple"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Growing Pineapple"
+                        android:textColor="#572DA1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginLeft="20sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tips on how to grow pineapples"
+                        android:textColor="#301461"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/gelasio"
+                        android:layout_marginLeft="20sp"
+                        />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:padding="8dp"
+                    android:src="@drawable/advice"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="8sp"
+                    />
+            </LinearLayout>
+
+            <!--Detection Layout-->
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/detection_bg"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:layout_gravity="center"
+                android:onClick="getDetection">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Get detection"
+                        android:textColor="#835004"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="21dp"
+                        android:layout_marginLeft="20sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Scan your pineapple now!"
+                        android:textColor="#4C320B"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/gelasio"
+                        android:layout_marginLeft="20sp"
+                        />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:padding="8dp"
+                    android:src="@drawable/camera"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="10sp"
+                    />
+            </LinearLayout>
+
+            <!--Tutorial Layout-->
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@drawable/faq_bg"
+                android:layout_marginTop="30dp"
+                android:padding="3dp"
+                android:layout_gravity="center"
+                android:onClick="getFAQ"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Frequently Asked \nQuestions"
+                        android:textColor="#091D63"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginLeft="20sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Find answers to common queries"
+                        android:textColor="#263773"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/gelasio"
+                        android:layout_marginLeft="20sp"
+                        />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:padding="8dp"
+                    android:src="@drawable/faq"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginTop="10sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink_bg"
+    tools:context=".PinkDisease">
+
+    <TextView
+        android:id="@+id/pinkDisease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="PINK DISEASE"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ED05CF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pinkDisease"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="161dp"
+        android:text="What is it?"
+        android:textColor="#ED05CF"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="340dp"
+        android:layout_height="263dp"
+        android:layout_below="@+id/pinkDisease"
+        android:layout_marginTop="79dp"
+        android:justificationMode="inter_word"
+        android:letterSpacing="0.01"
+        android:layout_centerHorizontal="true"
+        android:text="@string/pinkDisease"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/explain"
+        android:layout_marginTop="-25dp"
+        android:text="Prevention / Treatment:"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ED05CF"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prevent"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pinkDisease"
+        android:layout_marginTop="359dp"
+        android:justificationMode="inter_word"
+        android:letterSpacing="0.01"
+        android:layout_centerHorizontal="true"
+        android:text="@string/prevent_pink"
+        android:textColor="#000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/link3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/explain"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="210dp"
+        android:text="@string/link_PinkDisease"
+        android:textAlignment="center"
+        android:textColor="#ED05CF"
+        android:layout_centerHorizontal="true"
+        android:textColorLink="#123261"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/homebtn"
+        android:layout_width="290dp"
+        android:layout_height="42sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="19dp"
+        android:text="Back"
+        app:backgroundTint="#FDBABA"
+        android:textColor="@drawable/btnselect2_bg"
+        android:textAllCaps="false"
+        android:background="@drawable/back_bg"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

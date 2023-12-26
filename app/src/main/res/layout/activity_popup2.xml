@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="320dp"
+    android:layout_height="470dp"
+    android:layout_gravity="center"
+    android:background="@drawable/popup_bg"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:clipToOutline="true"
+    >
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:background="@drawable/close_bg"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:text="X"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/gardening"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/click1"
+        android:text="Soil &amp; Planting"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soil:\nUse well-draining sandy loam soil, pH 5.5-6.5. Avoid waterlogged or clayey soil.
+\n\nPlanting:\nChoose a sunny, spacious area with crowns or slips. Proper spacing and avoid overcrowding."
+        android:textColor="#C3040000"
+        android:textAlignment="center"
+        android:justificationMode="inter_word"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

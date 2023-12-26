@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "948179755849",
+    "project_id": "pineappleleafdisease",
+    "storage_bucket": "pineappleleafdisease.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948179755849:android:8a146546d755b4b569f098",
+        "android_client_info": {
+          "package_name": "com.example.pineappleleafdisease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948179755849-2d1n4pkukqvuq2opidur7lr6ooropjtv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pineappleleafdisease",
+            "certificate_hash": "f4fc7548efa5ca220ae5b1bbbb6ca0f472c97a75"
+          }
+        },
+        {
+          "client_id": "948179755849-12hg5sa1s6ak3n72466aam573rj1no2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZDhoZFTaXIjgBqt67ss9ggqBFvkq4-tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948179755849-12hg5sa1s6ak3n72466aam573rj1no2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
