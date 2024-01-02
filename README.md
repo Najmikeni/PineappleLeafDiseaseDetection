@@ -1,6 +1,6 @@
 # Pineapple Leaf Disease Detection via Image Processing 
 
-This is my final year project 2023 created on Android Studio using the Java programming language and the detection model is created on Jupyter Notebook using the Python programming language.
+This is my final year project 2023 created on Android Studio using the Java (Back-End), XML (Front-End), and the detection model is created on Jupyter Notebook using Python.
 
 This project presents an innovative approach aimed at enhancing early detection and management of pineapple leaf diseases by integrating a Convolutional Neural Network (CNN) algorithm and importing it using TensorFlow lite into an android mobile. The CNN model achieved an impressive total accuracy of 98% in precisely classifying three types of pineapple leaf diseases: Leaf Spot, Mealybug Wilt, and Pink Disease. 
 
